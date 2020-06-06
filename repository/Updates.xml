@@ -1,0 +1,44 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>com.slproweb.openssl</Name>
+  <DisplayName>Windows OpenSSL libraries</DisplayName>
+  <Description>Libraries required for checking for updates</Description>
+  <Version>1.1.1</Version>
+  <ReleaseDate>2020-03-04</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <UpdateFile UncompressedSize="3692724" OS="Any" CompressedSize="2223989"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>3335eaaec13a64a0c7c0b7a6d2a76181e52b57da</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>net.tangentmc.drivers</Name>
+  <DisplayName>Arduino UNO DFU Driver</DisplayName>
+  <Description>Driver required for programming Arduino UNOs</Description>
+  <Version>1.0.0</Version>
+  <ReleaseDate>2020-03-04</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <UpdateFile UncompressedSize="507858" OS="Any" CompressedSize="163529"/>
+  <DownloadableArchives>drivers.7z</DownloadableArchives>
+  <SHA1>a9538d43b5664e4bf51c724dd80c95228e32384a</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>net.tangentmc.guitar_configurator</Name>
+  <DisplayName>Ardwiino Configurator</DisplayName>
+  <Description>Install this program</Description>
+  <Version>v5.5.0</Version>
+  <ReleaseDate>2020-06-06</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <ForcedInstallation>true</ForcedInstallation>
+  <UpdateFile UncompressedSize="81829702" OS="Any" CompressedSize="20639353"/>
+  <DownloadableArchives>bearer.7z,binaries.7z,firmware.7z,iconengines.7z,imageformats.7z,platforms.7z,qmltooling.7z,Qt.7z,QtGraphicalEffects.7z,QtQml.7z,QtQuick.7z,QtQuick.2.7z,scenegraph.7z,styles.7z,translations.7z,content.7z</DownloadableArchives>
+  <SHA1>8af3c65ba0eb4bd45c78c997766208fefab7b52f</SHA1>
+ </PackageUpdate>
+</Updates>
